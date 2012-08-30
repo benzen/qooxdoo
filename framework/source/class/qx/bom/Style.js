@@ -24,6 +24,7 @@
  * If you want to query or modify styles of HTML elements,
  * take a look at {@see qx.bom.element.Style}.
  */
+
 qx.Bootstrap.define("qx.bom.Style",
 {
   statics : {

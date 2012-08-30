@@ -25,6 +25,13 @@
  *
  * @internal
  */
+
+/* ************************************************************************
+#require(qx.core.Environment#addAsync)
+#require(qx.core.Environment#select)
+#require(qx.lang.Type#isObject)
+#require(qx.lang.Type#isArray)
+************************************************************************ */
 qx.Bootstrap.define("qx.bom.client.EcmaScript",
 {
   statics :
