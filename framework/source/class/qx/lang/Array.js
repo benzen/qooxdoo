@@ -37,6 +37,7 @@
 #ignore(qx.data.IListData)
 #ignore(qx.Class)
 #require(qx.lang.normalize.Date)
+#require(qx.lang.Array#fromCollection)
 
 ************************************************************************ */
 
