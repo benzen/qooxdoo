@@ -38,6 +38,7 @@
 #ignore(qx.Class)
 #require(qx.lang.normalize.Date)
 #require(qx.lang.Array#fromCollection)
+#require(qx.lang.Array#fromArguments)
 
 ************************************************************************ */
 
