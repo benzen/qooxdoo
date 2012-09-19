@@ -252,7 +252,8 @@ qx.Bootstrap.define("qx.bom.Html",
             if (elem.nodeType === 1)
             {
               // Recursively search for scripts and append them to the list of elements to process
-              temp = Array.prototype.slice.call(elem.getElementsByTagName("script"), 0);
+              var resultArray = qx.lang.Array.cast(elem.getElementsByTagName("script"), Array);
+              temp = Array.prototype.slice.call(resultArray, 0);
               ret.splice.apply(ret, [i+1, 0].concat(temp));
             }
 
