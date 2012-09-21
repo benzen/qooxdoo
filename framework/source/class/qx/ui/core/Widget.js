@@ -3341,7 +3341,7 @@ qx.Class.define("qx.ui.core.Widget",
       if (!this.isEnabled() && value === true) {
         value = false;
       }
-
+/*
       // Force cursor creation
       qx.ui.core.DragDropCursor.getInstance();
 
@@ -3360,7 +3360,7 @@ qx.Class.define("qx.ui.core.Widget",
         this.removeListener("dragend", this._onDragEnd);
         this.removeListener("dragchange", this._onDragChange);
       }
-
+*/
       // Sync DOM attribute
       this.getContainerElement().setAttribute("qxDraggable", value ? "on" : null);
     },
